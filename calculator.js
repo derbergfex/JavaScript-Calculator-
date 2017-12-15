@@ -3,8 +3,8 @@ $(document).ready(function(){
   
   //Input.
   var inputArr = [""];
-  //Total.
-  var totalString = "";
+  //Displayed in the calculator log.
+  var displayString = "";
   //Numbers array for verification.
   var nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
   //Operators array for verification, excluding the dot.
@@ -59,13 +59,13 @@ $(document).ready(function(){
   }
   function updateVal()
   {
-   totalString = inputArr.join(""); 
-    $("#calculatorLog").html(totalString);
+   displayString = inputArr.join(""); 
+    $("#calculatorLog").html(displayString);
   }
   function evalTotal()
   {
-    totalString = inputArr.join("");
-    $("#calculatorLog").html(eval(totalString));
+    displayString = inputArr.join("");
+    $("#calculatorLog").html(eval(displayString));
   }
    
   });
