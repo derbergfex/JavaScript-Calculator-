@@ -1,17 +1,18 @@
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 
-<style>
-.font {
+.font 
+{
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 200;
 }
 
-#calculatorBody{
+#calculatorBody
+{
   width: 400px;
   height: 400px;
 }
 
-#calculatorScreen{
+#calculatorScreen
+{
   background-color: dimgrey;
   color: white;
   max-height: 5px;
@@ -19,18 +20,20 @@
   font-size: 20px;
 }
 
-form button {
+form button 
+{
   width: 70px;
   margin: 8px;
   font-size: 30px;
   background-color: silver;
 }
 
-#calculatorLog {
+#calculatorLog 
+{
   margin: -12px;
   text-align: right;
 }
-</style>
+
 
 
 
